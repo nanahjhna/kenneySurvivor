@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fjxce4sesh4w"
+path="res://.godot/imported/road-sign-stop.obj-ed61cfd0e07cbc9748e8644589ad66df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-sign-stop.obj-ed61cfd0e07cbc9748e8644589ad66df.mesh"]
+
+source_file="res://assets/kenney_city-kit-roads/Models/OBJ format/road-sign-stop.obj"
+dest_files=["res://.godot/imported/road-sign-stop.obj-ed61cfd0e07cbc9748e8644589ad66df.mesh", "res://.godot/imported/road-sign-stop.obj-ed61cfd0e07cbc9748e8644589ad66df.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
