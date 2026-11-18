@@ -3,6 +3,7 @@
 *.apk
 *.jks
 android/build/
+android/.build_version
 android/app/upload-key.jks
 kenneySurvivor.aab
 
@@ -11,5 +12,12 @@ android/key.properties
 upload_certificate.pem
 
 # Godot
+.godot/
 .import/
 export_presets.cfg.user
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
