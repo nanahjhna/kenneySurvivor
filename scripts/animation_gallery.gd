@@ -2,7 +2,7 @@ extends CanvasLayer
 
 signal closed
 
-const HERO_SCENE := preload("res://assets/hero/hero01_textured.tscn")
+const HERO_SCENE: PackedScene = null
 const DEFAULT_ANIMATION := "Breathing_Idle_RT"
 
 var animation_player: AnimationPlayer
@@ -68,6 +68,9 @@ func _build_preview() -> void:
 	viewport.add_child(camera)
 	camera.look_at(Vector3(0, 0.85, 0), Vector3.UP)
 
+	if HERO_SCENE == null:
+		push_error("hero01_textured.tscn missing")
+		return
 	var hero := HERO_SCENE.instantiate() as Node3D
 	hero.scale = Vector3(2.5, 2.5, 2.5)
 	viewport.add_child(hero)

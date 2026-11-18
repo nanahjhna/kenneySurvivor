@@ -67,15 +67,6 @@ func _ready() -> void:
 		animation_player = animation_nodes[0] as AnimationPlayer
 		_play_animation("idle")
 
-	var wscene := load(
-		"res://assets/kenney_mini-characters/Models/GLB format/weapon-sword.glb"
-	) as PackedScene
-	if wscene:
-		var weapon := wscene.instantiate() as Node3D
-		weapon.position = Vector3(0.6, 1.0, 0)
-		weapon.rotation_degrees = Vector3(0, 0, -45)
-		add_child(weapon)
-
 func _physics_process(delta: float) -> void:
 	if is_dead:
 		return
