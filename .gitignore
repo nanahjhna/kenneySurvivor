@@ -1,3 +1,15 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Build artifacts
+*.aab
+*.apk
+*.jks
+android/build/
+android/app/upload-key.jks
+kenneySurvivor.aab
+
+# Secrets
+android/key.properties
+upload_certificate.pem
+
+# Godot
+.import/
+export_presets.cfg.user
